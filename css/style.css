@@ -1,0 +1,514 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+body {
+   font-family: "Roboto", sans-serif;
+}
+
+ul {
+   list-style-type: none;
+   margin: 0;
+}
+
+button,
+input[type="button"] {
+   cursor: pointer;
+}
+
+button:focus,
+input:focus,
+textarea:focus {
+   outline: none;
+   box-shadow: none !important;
+}
+
+input,
+textarea {
+   border: none;
+}
+
+button {
+   border: none;
+   background: none;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+}
+blockquote {
+   margin: 0;
+}
+
+strong {
+   font-weight: 700;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+   text-decoration: none;
+   outline: none;
+}
+
+h6 {
+   font-size: 18px;
+}
+h5 {
+   font-size: 20px;
+}
+h4 {
+   font-size: 22px;
+}
+
+h3 {
+   font-size: 25px;
+}
+h2 {
+   font-size: 24px;
+}
+h1 {
+   font-size: 30px;
+}
+p {
+   font-size: 16px;
+   margin-bottom: 0;
+}
+
+input {
+   border-radius: 0 !important;
+   padding: 12px !important;
+}
+
+.nav-link:hover ,.nav-link:focus {
+   color: black;
+}
+
+.clr-gry {
+   color: #8f8f8f;
+}
+
+.txt-center {
+   text-align: center;
+}
+
+.back-gray {
+   background-color: #d1d1d1;
+}
+
+.bld {
+   font-weight: bold;
+}
+
+/* Navbar-CSS */
+
+.navbar {
+   padding: 0;
+}
+
+.navbar-brand {
+   width: 120px;
+}
+
+.bar-logo {
+   color: #2785db;
+   font-size: 36px;
+}
+
+.collapse {
+   justify-content: flex-end;
+}
+
+.nav-link {
+   color: black;
+   font-weight: 500;
+}
+
+/* Back-Img-Section */
+
+.back-clr {
+   background: url("../images/bg-blue.png") left 88% bottom 20% / cover
+      no-repeat border-box;
+   padding: 5rem 0;
+}
+
+.form-control {
+   padding: 6px !important;
+   margin-top: 24px;
+}
+
+.set-text {
+   letter-spacing: 3px;
+   color: #e7feff;
+}
+
+.set-text h1 {
+   margin: 12px 0;
+}
+
+.set-text p {
+   margin: 12px 0;
+}
+
+.submit-btn {
+   padding: 6px;
+   background-color: white;
+   border-radius: 0;
+   margin: 24px 0;
+   width: 100%;
+   border: 2px solid #2785db;
+   outline: 2px solid #e7feff;
+}
+
+.form-check {
+   display: flex;
+   align-items: center;
+}
+
+.form-check-input {
+   margin-right: 12px;
+}
+
+.form-header {
+   color: white;
+}
+
+.back-foot {
+   background-color: #e0e0e0;
+   padding: 24px 0;
+}
+
+.p-24 {
+   font-size: 20px;
+}
+
+@media (max-width: 767px) {
+   .form-d {
+      margin-top: 36px;
+   }
+}
+
+/* Video-Section-Css */
+
+.vp-center #player {
+   height: 100% !important;
+}
+
+.video-sec {
+   margin-top: 48px;
+}
+
+.video-description p {
+   margin: 16px 0;
+}
+
+.video-back {
+   /* background-color: #2785db; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+@media (max-width: 1400px) {
+   .video-description {
+      padding-left: 56px;
+   }
+}
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 991px) {
+   .video-description {
+      margin-top: 48px;
+      padding-left: 12px;
+   }
+
+   .video-back {
+      height: 400px;
+   }
+}
+
+@media (max-width: 767px) {
+   .video-sec {
+      text-align: center;
+   }
+
+   .video-description {
+      margin-top: 6px;
+   }
+
+   /* .player {
+      height: 100% !important;
+   } */
+}
+
+@media (max-width: 575px) {
+   /* .video-back {
+      height: 300px;
+   } */
+
+   /* .video-description {
+      margin-top: 4px;
+   } */
+}
+
+/* symptoms-section-css */
+
+.symptoms {
+   margin-top: 48px;
+}
+
+.sym-p {
+   margin-bottom: 36px;
+}
+
+.set-sym-p {
+   font-size: 16px;
+   margin: 8px 0;
+}
+
+.set-sym-div {
+   padding-left: 56px;
+}
+
+.sym-card {
+   margin: 16px 0;
+   padding: 12px;
+}
+
+@media (max-width: 991px) {
+   .sym-p {
+      text-align: center;
+   }
+   .sym-card {
+      justify-content: center;
+   }
+   .set-sym-div {
+      padding-left: 12px;
+   }
+}
+
+@media (max-width: 767px) {
+   /* .sym-p {
+      text-align: center;
+   } */
+   .sym-card {
+      text-align: center;
+   }
+}
+
+@media (max-width: 575px) {
+   /* .sym-p {
+      text-align: center;
+   }
+   .sym-card {
+      justify-content: center;
+   } */
+}
+
+/* Profile-Section-Css */
+
+.vi-ba-fix {
+   background-color: #2785db;
+}
+
+
+/* Appointment-section-css */
+
+.appoint-back-img {
+   background: url("../images/bg-treatment.png") left 88% bottom 20% / cover
+      no-repeat border-box;
+   text-align: center;
+   margin-top: 48px;
+   padding: 24px;
+   color: black;
+}
+
+.appoint-header {
+   font-weight: bold;
+   font-size: 24px;
+}
+
+.set-appoint-p {
+   margin: 12px 0;
+}
+
+.appoint-btn {
+   font-weight: bold;
+   background-color: #4f86f7;
+   border-radius: 0;
+   color: black;
+   font-weight: 500;
+   padding: 6px 18px;
+}
+
+.appoint-btn:hover {
+   color: black;
+}
+
+/* Faqs-Section-Css */
+
+.faqs-section {
+   margin-top: 48px;
+}
+
+.faq-header {
+   margin: 24px 0;
+   text-align: center;
+}
+
+.faq-p1 {
+   font-size: 24px;
+   font-weight: bold;
+}
+
+.faq-p2 {
+   font-size: 24px;
+   color: #2785db;
+   font-weight: lighter;
+}
+
+.set-faq-p {
+   margin: 24px 0;
+}
+
+@media (max-width: 767px) {
+   .faqs-section {
+      text-align: center;
+   }
+}
+
+/* Testimonials-Section-Css */
+
+.bg-testim {
+   background: url("../images/bg-testimonials1.jpg") left 88% bottom 20% / cover
+      no-repeat border-box;
+   padding: 48px 0;
+}
+
+.set-tes-hdr {
+   margin-bottom: 32px;
+}
+
+.testi-btn {
+   /* background-color: #2785db;
+   letter-spacing: 2px;
+   padding: 8px  18px;
+   color: white;
+   border-radius: 0;
+   text-align: center; */
+}
+
+/* .testi-btn:hover {
+   color: white;
+}
+
+.owl-nav button {
+   border: none !important;
+   outline: none !important;
+}
+
+.owl-prev,
+.owl-next {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   color: black !important;
+   font-size: 65px !important;
+   font-weight: bolder !important;
+   background: none !important;
+}
+
+.owl-prev {
+   left: 1%;
+}
+
+.owl-next {
+   right: 1%;
+} */
+
+
+.visit-btn {
+   margin-top: 24px;
+}
+
+/* Appoint-Section */
+
+.appoint-section {
+   margin: 48px 0;
+}
+
+.back-2-img {
+   background: url("../images/logo.png") left 88% bottom 20% / cover no-repeat
+      border-box;
+}
+
+/* .fix-app-btn {
+   font-weight: 400;
+   padding: 12px;
+} */
+
+.img-treat {
+   text-align: center;
+}
+
+@media (max-width: 767px) {
+   
+   .appoint-section {
+      text-align: center;
+   }
+   
+   .img-treat {
+      margin-top: 24px;
+   }
+
+}
+
+
+
+/* Footer-section-css */
+
+.footer-back {
+   background-color: black;
+   padding: 24px 0;
+   color: lightgray;
+}
+
+.set-hedr {
+   margin-bottom: 12px;
+}
+
+.set-ft {
+   color: white;
+   font-weight: lighter;
+}
+
+.set-ft:hover {
+   color: white;
+}
+
+.email-link {
+   color: #2785db !important;
+}
+
+.email-link:hover {
+   color: #2785db !important;
+}
+
+@media (max-width: 767px) {
+   .set-hedr {
+      margin-top: 24px;
+   }
+}
+
+@media (max-width: 575px) {
+   .txt-cent {
+      text-align: center;
+   }
+}
